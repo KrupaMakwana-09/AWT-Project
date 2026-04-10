@@ -1,0 +1,12 @@
+{
+  "name": "library-management-system-root",
+  "version": "1.0.0",
+  "scripts": {
+    "install-all": "npm install --prefix Library-Management-System-Using-Mern-Stack/backend && npm install --prefix Library-Management-System-Using-Mern-Stack/frontend",
+    "dev": "npx concurrently \"npm run dev --prefix Library-Management-System-Using-Mern-Stack/backend\" \"npm run dev --prefix Library-Management-System-Using-Mern-Stack/frontend\"",
+    "start": "npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
